@@ -20,14 +20,28 @@ const SITE_CONFIG = {
     version: '1.0.3'
 };
 
-// API站点配置
+// API站点配置（2025-08-15 实测可用）
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+    hongniu: {
+        api: 'http://hongniuzy2.com',
+        name: '红牛资源',
+    },
+    lzzy: {
+        api: 'http://cj.lziapi.com',
+        name: '量子资源',
+    },
+    ku1080: {
+        api: 'http://api.1080zyku.com',
+        name: '优质资源库',
+    },
+    s39: {
+        api: 'http://39kan.com',
+        name: '39影视',
+    },
+    wolong: {
+        api: 'http://collect.wolongzyw.com',
+        name: '卧龙资源',
     }
-    //ARCHIVE https://telegra.ph/APIs-08-12
 };
 
 // 定义合并方法
